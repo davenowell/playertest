@@ -1,7 +1,11 @@
-<link rel="stylesheet" href="/css/plyr.css">
-#Playertest
+<html lang="en">
+<head>
+  <title>Player Test</title>
+  <link rel="stylesheet" href="/css/plyr.css">
+</head>
+<body>
 
-<div class="px-video-container" id="myvid">
+  <div class="px-video-container" id="myvid">
     <div class="px-video-img-captions-container">
         <div class="px-video-captions hide" aria-hidden="true"></div>
         <video width="640" height="360" poster="img/duck.png" controls>
@@ -15,3 +19,7 @@
     </div>
     <div class="px-video-controls"></div>
 </div>
+
+
+</body>
+</html>
