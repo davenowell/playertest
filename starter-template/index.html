@@ -72,22 +72,25 @@
   <div class="starter-template">
     <h1>Course name</h1>
     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <div class="px-video-container" id="myvid">
+        <div class="px-video-img-captions-container">
+            <div class="px-video-captions hide" aria-hidden="true"></div>
+            <video width="640" height="360" poster="../img/duck.png" controls>
+                <source src="../video/duck.mp4" type="video/mp4" />
+                <div>
+                    <a href="../video/duck.mp4">
+                        <img src="../img/duck.png" width="640" height="360" alt="download video" />
+                    </a>
+                </div>
+            </video>
+        </div>
+        <div class="px-video-controls"></div>
+    </div>
+ 
+ 
   </div>
 
-  <div class="px-video-container" id="myvid">
-    <div class="px-video-img-captions-container">
-        <div class="px-video-captions hide" aria-hidden="true"></div>
-        <video width="640" height="360" poster="../img/duck.png" controls>
-            <source src="../video/duck.mp4" type="video/mp4" />
-            <div>
-                <a href="../video/duck.mp4">
-                    <img src="../img/duck.png" width="640" height="360" alt="download video" />
-                </a>
-            </div>
-        </video>
-    </div>
-    <div class="px-video-controls"></div>
-</div>
+ 
 
 </main><!-- /.container -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
