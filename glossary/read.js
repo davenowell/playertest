@@ -1,11 +1,9 @@
-const fs = require('fs');
-const yaml = require('js-yaml');
+var fs = require('fs')
+var data = require('./lib.json')
 
-try {
-    let fileContents = fs.readFileSync('./lib.yaml', 'utf8');
-    let data = yaml.safeLoad(fileContents);
+console.log(data.name)
 
-    console.log(data);
-} catch (e) {
-    console.log(e);
-}
+fs.readFile('./lib.json', 'utf-8', (err,data) => {
+    var data = JSON.parse(data)
+    console.log(data.name)
+})
