@@ -1,0 +1,46 @@
+[
+    {
+       "id": 1,
+       "title": "Title test",
+       "source": "<link to docs or something>",
+       "description": "Description here",
+       "tags": [
+          "tag1",
+          "tag2"
+       ],
+       "usage": [
+          {
+             "type": "certification",
+             "source": "<link to where content source of truth is for that type and use>",
+             "alert-type": "issue",
+             "alert-location": "github/certifications",
+             "maintainer": "@github/ps-programs"
+          },
+          {
+             "type": "learning-lab",
+             "source": "<link to specific LL file>",
+             "alert-type": "pull request",
+             "maintainer": "@github/ps-programs"
+          }
+       ]
+    },
+    {
+       "id": 2,
+       "title": "Title test",
+       "source": "<link to docs or something>",
+       "description": "Description here",
+       "tags": [
+          "tag1",
+          "tag2"
+       ],
+       "usage": [
+          {
+             "type": "certification",
+             "source": "<link to where content source of truth is for that type and use>",
+             "alert-type": "issue",
+             "alert-location": "github/certifications",
+             "maintainer": "@github/ps-programs"
+          }
+       ]
+    }
+ ]
